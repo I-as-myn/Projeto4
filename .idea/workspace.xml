@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a049238f-6ff6-44bf-b3c2-d744ddd99c81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.14.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.33.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.2.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-2.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-core-2.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jta-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xml-apis-1.3.03.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jpa/GenericJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jpa/IGenericJapDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/ClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/IClienteJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/IProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/IVendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/ProdutoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/jpa/VendaJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/ClienteJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/ProdutoJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/ProdutoQuantidadeJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/jpa/VendaJpa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/generic/jpa/GenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/generic/jpa/IGenericJpaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rpires/dao/VendaExclusaoJpaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rpires/jpa/ClienteJpaDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rpires/jpa/ProdutoJpaDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/rpires/jpa/VendaJpaDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mod30.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mod35.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h2-2.2.220.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/h2-2.2.224.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/anotacao/ColunaTabela.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/anotacao/Tabela.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/anotacao/TipoChave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/ClienteDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/IClienteDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/IProdutoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/IVendaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/Persistente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/ProdutoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/VendaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/factory/ClienteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/factory/ProdutoFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/factory/ProdutoQuantidadeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/factory/VendaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/generic/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/generic/IGenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/generic/SingletonMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/generic/jdbc/ConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/dao/generic/jdbc/SchemaLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/domain/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/domain/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/domain/ProdutoQuantidade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/domain/Venda$Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/domain/Venda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/exceptions/DAOException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/exceptions/MaisDeUmRegistroException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/exceptions/TableException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/exceptions/TipoChaveNaoEncontradaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/exceptions/TipoElementoNaoConhecidoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/services/ClienteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/services/IClienteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/services/IProdutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/services/ProdutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/services/generic/GenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/br/com/rpires/services/generic/IGenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/AllTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/ClienteDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/ClienteServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/ProdutoDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/ProdutoServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/VendaDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/dao/ClienteDaoMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/br/com/rpires/dao/ProdutoDaoMock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgresql-42.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/ClienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/ProdutoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/GenericDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jdbc/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/dao/generic/jdbc/SchemaLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/domain/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/IClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/rpires/services/IClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/rpires/ClienteDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/rpires/ClienteDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/rpires/ProdutoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/rpires/ProdutoDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33yZPKaXkhybVZe30sQlizHJkc4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ClienteDAOTest.executor": "Run",
+    "JUnit.ClienteDAOTest.pesquisarCliente.executor": "Run",
+    "JUnit.ProdutoDAOTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/iasmy/Desktop/CursoEbac/BackEnd/mod35",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ClienteDAOTest">
+    <configuration name="ClienteDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rpires.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rpires" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rpires.ClienteDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteDAOTest.pesquisarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rpires.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rpires" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rpires.ClienteDAOTest" />
+      <option name="METHOD_NAME" value="pesquisarCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProdutoDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.rpires.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.rpires" />
+      <option name="MAIN_CLASS_NAME" value="br.com.rpires.ProdutoDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClienteDAOTest" />
+        <item itemvalue="JUnit.ProdutoDAOTest" />
+        <item itemvalue="JUnit.ClienteDAOTest.pesquisarCliente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a049238f-6ff6-44bf-b3c2-d744ddd99c81" name="Changes" comment="" />
+      <created>1760291246628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760291246628</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/rpires/ClienteDAOTest.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/rpires/ClienteDAOTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/rpires/ClienteDAOTest.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

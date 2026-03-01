@@ -7,7 +7,6 @@ import anotacao.ColunaTabela;
 import anotacao.Tabela;
 import anotacao.TipoChave;
 import br.com.rpires.dao.Persistente;
-import java.time.LocalDate;
 
 /**
  * @author rodrigo.pires
@@ -40,12 +39,6 @@ public class Cliente implements Persistente {
     
 	@ColunaTabela(dbName = "estado", setJavaName = "setEstado")
     private String estado;
-
-	@ColunaTabela(dbName = "email", setJavaName = "setEmail")
-	private String email;
-
-	@ColunaTabela(dbName = "DATA_NASCIMENTO", setJavaName = "setDataNascimento")
-	private LocalDate dataNascimento;
     
 	public String getNome() {
 		return nome;
@@ -95,10 +88,9 @@ public class Cliente implements Persistente {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getEmail() { return email; }
-	public void setEmail(String email) { this.email = email; }
-	public LocalDate getDataNascimento() { return dataNascimento; }
-	public void setDataNascimento(LocalDate dataNascimento) { this.dataNascimento = dataNascimento; }
+	
+	
+
 	
 
 }

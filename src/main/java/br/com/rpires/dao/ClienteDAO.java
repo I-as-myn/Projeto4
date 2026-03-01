@@ -1,12 +1,18 @@
+/**
+ * 
+ */
 package br.com.rpires.dao;
 
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import br.com.rpires.dao.generic.GenericDAO;
 import br.com.rpires.domain.Cliente;
 
+/**
+ * @author rodrigo.pires
+ *
+ */
 public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO {
 
 	public ClienteDAO() {
@@ -27,16 +33,15 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		entityCadastrado.setNome(entity.getNome());
 		entityCadastrado.setNumero(entity.getNumero());
 		entityCadastrado.setTel(entity.getTel());
-		entityCadastrado.setEmail(entity.getEmail());
-		entityCadastrado.setDataNascimento(entity.getDataNascimento());
+		
 	}
 
 	@Override
 	protected String getQueryInsercao() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("INSERT INTO TB_CLIENTE ");
-		sb.append("(ID, NOME, CPF, TEL, ENDERECO, NUMERO, CIDADE, ESTADO, EMAIL, DATA_NASCIMENTO)");
-		sb.append("VALUES (nextval('sq_cliente'),?,?,?,?,?,?,?,?,?)");
+		sb.append("(ID, NOME, CPF, TEL, ENDERECO, NUMERO, CIDADE, ESTADO)");
+		sb.append("VALUES (nextval('sq_cliente'),?,?,?,?,?,?,?)");
 		return sb.toString();
 	}
 
@@ -49,12 +54,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		stmInsert.setLong(5, entity.getNumero());
 		stmInsert.setString(6, entity.getCidade());
 		stmInsert.setString(7, entity.getEstado());
-		stmInsert.setString(8, entity.getEmail());
-		if (entity.getDataNascimento() != null) {
-			stmInsert.setDate(9, Date.valueOf(entity.getDataNascimento()));
-		} else {
-			stmInsert.setNull(9, java.sql.Types.DATE);
-		}
+		
 	}
 
 	@Override
@@ -66,7 +66,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 	protected void setParametrosQueryExclusao(PreparedStatement stmExclusao, Long valor) throws SQLException {
 		stmExclusao.setLong(1, valor);
 	}
-
+	
 	@Override
 	protected String getQueryAtualizacao() {
 		StringBuilder sb = new StringBuilder();
@@ -76,10 +76,8 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		sb.append("ENDERECO = ?,");
 		sb.append("NUMERO = ?,");
 		sb.append("CIDADE = ?,");
-		sb.append("ESTADO = ?,");
-		sb.append("EMAIL = ?, ");
-		sb.append("DATA_NASCIMENTO = ? ");
-		sb.append("WHERE CPF = ?");
+		sb.append("ESTADO = ?");
+		sb.append("WHERE CPF = ? ");
 		return sb.toString();
 	}
 
@@ -91,14 +89,7 @@ public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO
 		stmUpdate.setLong(4, entity.getNumero());
 		stmUpdate.setString(5, entity.getCidade());
 		stmUpdate.setString(6, entity.getEstado());
-		stmUpdate.setString(7, entity.getEmail());
-		// Tratamento de null para dataNascimento
-		if (entity.getDataNascimento() != null) {
-			stmUpdate.setDate(8, Date.valueOf(entity.getDataNascimento()));
-		} else {
-			stmUpdate.setNull(8, java.sql.Types.DATE);
-		}
-		stmUpdate.setLong(9, entity.getCpf());
+		stmUpdate.setLong(7, entity.getCpf());
 	}
 
 	@Override
